@@ -1,0 +1,10 @@
+# Assignment 2
+# Task 1
+Num = int(input("Enter a number: "))
+if Num % 2 == 0:
+    print(f"{Num} is an even number")
+else:
+    print(f"{Num} is an odd number")
+
+# Task 2
+print(f" The sum of numbers from 1 to 50 is:",(sum(range(1,51))))
